@@ -1,6 +1,6 @@
 <?php
 
-$x = array('unstable', 'crazy', 'psyco', 'insane');
+$x = array('red', 'blue', 'green', 'yellow');
 foreach ($x as $c) {
 	print "<br>this file is $c";
 }
