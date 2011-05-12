@@ -3,6 +3,10 @@
 	<title>My <?php echo $this->layout()->foo ?> and odd <?php echo $this->layout()->bar ?> Website</title>
 </head>
 <body bgcolor="#243344">
-	<?php echo $this->layout()->content ?>
+	   <div id="header" style="width:996px; background-color:#422; height:100px;">Header</div>
+       <div style="width:180px; background-color:#323; float:left; min-height:800px;">Navigation</div>
+       <div id="content" style="width:800px; background-color:#242; float:left; padding:8px">
+		<?php echo $this->layout()->content ?>
+	   </div>
 </body>
 </html>
