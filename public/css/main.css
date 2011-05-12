@@ -1,0 +1,36 @@
+@CHARSET "ISO-8859-1";
+body {
+	background-color:#fff;
+	padding: 0;
+	margin: 0;
+	font-family: verdana;
+}
+#header {
+	width:996px;
+	background-color:#70061D;
+	background-image: url('http://its.noctrl.edu/sites/all/themes/its/images/ITSBanner2.png');
+	background-position:right top;
+	background-repeat: no-repeat;
+	height:66px;
+	padding: 8px;
+}
+#header h1 {
+	color: #FFF;
+	font-family: verdana;
+	font-size: 24px;
+	
+}
+#side-navbar {
+	width:120px; 
+	background-color:#fff; 
+	float:left; 
+	border-right: 1px dashed #ddd;
+	padding: 10px 0 0 8px;
+	margin-right: 10px;
+	min-height: 400px;              
+}
+#content {
+	background-color:#fff; 
+	padding:8px;
+	color: #333;
+}
